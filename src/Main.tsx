@@ -21,7 +21,6 @@ const Main = () => {
       setError(false);
       setLoading(true);
       try {
-        console.log('fetching data');
         const doctorsResults = await axios(
           'https://testapi.io/api/akirayoglu/0/reference/getDoctors'
         );
